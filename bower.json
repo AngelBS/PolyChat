@@ -2,7 +2,7 @@
   "name": "Simple Chat MD",
   "version": "0.0.1",
   "authors": [
-    "Tomomi Imura <tomomi.i@gmail.com>"
+    "Angel Barrera Santana <angelbarrerasantana@gmail.com>"
   ],
   "description": "A simple chat demo in Material Design",
   "keywords": [
@@ -13,7 +13,7 @@
     "chat"
   ],
   "license": "MIT",
-  "homepage": "pubnub.com",
+  "homepage": "angelbs.xyz",
   "private": true,
   "ignore": [
     "**/.*",

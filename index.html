@@ -3,8 +3,8 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<meta name="description" content="Simple Chat Room">
-	<meta name="author" content="Angel Barrera @bellamy_homme">
+	<meta name="description" content="Simple Chat Room Created with Google Polymer 0.5 and PubNub's APIs">
+	<meta name="author" content="Angel Barrera @angelba_santana">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="mobile-web-app-capable" content="yes">
@@ -56,7 +56,7 @@
   	</core-header-panel>
 
   	<div tool layout horizontal flex>
-  		<div flex>Bienvenidos Polymexas</div>
+  		<div flex>Bienvenidos todos</div>
   		<core-icon icon="account-circle"></core-icon><span>{{occupancy}}</span>
   	</div>
 
@@ -69,7 +69,7 @@
 		<div class="shim"></div>
 
 		<div class="send-message" layout horizontal>
-	    	<paper-input flex label="Type message..." id="input" value="{{input}}" on-keyup="{{checkKey}}"></paper-input>
+	    	<paper-input flex label="Mensaje..." id="input" value="{{input}}" on-keyup="{{checkKey}}"></paper-input>
 	    	<paper-fab icon="send" id="sendButton" on-tap="{{sendMyMessage}}"></paper-fab>
 	    </div>
   	</section>
